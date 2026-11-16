@@ -36,3 +36,20 @@ build/
 target/
 .idea/
 *.iml
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/
